@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>应聘登记表</title>
+  <link rel="stylesheet" href="index.css">
+<script type="text/javascript" src="rolldate.min.js"></script>
+<body>
+  <!-- 头部标题 -->
+  <header class="header">
+    <p>应聘者登记表</p>
+  </header>
+
+  <!-- 内容 -->
+  <form action="success.html">
+  <div class="main">
+    <div class="type1">
+      <p class="kinds">应聘岗位</p>
+      <input type="text" class="input-bor" placeholder="请输入" required>
+    </div>
+
+    <div class="type2">
+      <p class="kinds">填表日期</p>
+				<div class="time-type">
+					<input readonly class="input-time" type="text" id="date-group1-2" placeholder="请选择" required>
+				</div>
+    </input>
+
+    <div class="type3">
+      <p class="kinds">姓名</p>
+      <input type="text" class="input-bor" placeholder="请输入" required>
+    </div>
+
+    <div class="type2">
+      <p class="kinds">性别</p>
+      <div class="time-type">
+        <select name="select-sex" id="select1" class="input-time">
+          <option value="男" selected>男</option>
+          <option value="女">女</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="type2">
+      <p class="kinds">出生日期</p>
+      <div class="time-type">
+					<input readonly class="input-time" type="text" id="date-group1-1" placeholder="请选择" required>
+			</div>
+    </div>
+
+    <div class="type6">
+      <p class="kinds">民族</p>
+      <input type="text" class="input-bor" placeholder="请输入" required>
+    </div>
+
+    <div class="type7">
+      <p class="kinds">政治面貌</p>
+      <input type="text" class="input-bor" placeholder="请输入" required>
+    </div>
+
+    <div class="type2">
+      <p class="kinds">婚否</p>
+      <div class="time-type">
+        <select name="select-sex" id="select2" class="input-time">
+          <option value="是" selected>是</option>
+          <option value="否">否</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="type9">
+      <p class="kinds">健康状况</p>
+      <input type="text" class="input-bor" placeholder="请输入" required>
+    </div>
+
+    <div class="type10">
+      <p class="kinds">籍贯（省、市）</p>
+      <input type="text" class="input-bor" placeholder="请输入" required>
+    </div>
+
+    <div class="type6">
+      <p class="kinds">联系方式</p>
+      <input type="text" class="input-bor" placeholder="请输入" required>
+    </div>
+
+    <div class="type6">
+      <p class="kinds">电子邮箱</p>
+      <input type="text" class="input-bor" placeholder="请输入" required>
+    </div>
+
+    <div class="type6">
+      <p class="kinds">学历</p>
+      <input type="text" class="input-bor" placeholder="请输入" required>
+    </div>
+
+    <div class="type6">
+      <p class="kinds">现住址</p>
+      <input type="text" class="input-bor" placeholder="请输入" required>
+    </div>
+
+    <div class="type6">
+      <p class="kinds">目前是否在职</p>
+      <input type="text" class="input-bor" placeholder="请输入" required>
+    </div>
+
+    <div class="type2">
+      <p class="kinds">预计到岗时间</p>
+      <div class="time-type">
+					<input readonly class="input-time" type="text" id="date-group1-3" placeholder="请选择" required>
+			</div>
+    </div>
+
+    <div class="type6">
+      <p class="kinds">期望薪资</p>
+      <input type="text" class="input-bor" placeholder="请输入" required>
+    </div>
+
+    <div class="type6">
+      <p class="kinds">外语水平</p>
+      <input type="text" class="input-bor" placeholder="请输入" required>
+    </div>
+
+    <div class="type6">
+      <p class="kinds">计算机水平</p>
+      <input type="text" class="input-bor" placeholder="请输入" required>
+    </div>
+
+    <div class="type6">
+      <p class="kinds">教育经历（请至少完整填写一行）</p>
+      <table class="table-ed">
+        <tr>
+          <td>时间</td>
+          <td>毕业院校</td>
+          <td>专业</td>
+          <td>详细情况</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+      <!-- <input type="date" class="input-time" placeholder="请输入" required> -->
+    </div>
+
+    <div class="type6">
+      <p class="kinds">工作经历（请至少完整填写一行，没有则写<span class="kinds-span">'无'</span>）</p>
+      <table class="table-ed">
+        <tr>
+          <td>时间</td>
+          <td>公司名称</td>
+          <td>职务</td>
+          <td>职责</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="type6">
+      <p>个人荣誉</p>
+      <input type="text" class="input-bor" placeholder="请输入">
+    </div>
+
+    <div class="type6">
+      <p>兴趣特长</p>
+      <input type="text" class="input-bor" placeholder="请输入">
+    </div>
+
+    <div class="type6">
+      <p class="kinds">自我评价</p>
+      <input type="text" class="input-bor" placeholder="请输入" required>
+    </div>
+
+    <button type="submit" class="button">提 交</button>
+    
+  </div>
+  </form>
+  <script>
+     window.onload = function() {
+      new Rolldate({
+				el: '#date-group1-1',
+				format: 'YYYY-MM',
+				beginYear: 2000,
+				endYear: 2100
+			})
+      new Rolldate({
+				el: '#date-group1-2',
+				format: 'YYYY-MM-DD',
+				beginYear: 2000,
+				endYear: 2100,
+        lang:{title:'', year:'年',month:'月',day:'日'},
+			})
+      new Rolldate({
+				el: '#date-group1-3',
+				format: 'YYYY-MM-DD hh'
+			})
+    }
+  </script>
+ 
+  
+  
+</body>
+</html>
